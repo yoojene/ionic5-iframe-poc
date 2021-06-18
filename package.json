@@ -20,7 +20,9 @@
     "@angular/platform-browser-dynamic": "~12.0.1",
     "@angular/router": "~12.0.1",
     "@capacitor/core": "3.0.1",
+    "@capacitor/ios": "^3.0.1",
     "@ionic/angular": "^5.5.2",
+    "cordova-plugin-wkuserscript": "git+https://github.com/yoojene/cordova-plugin-wkuserscript.git",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"

@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Iframe </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="false">
+  <iframe
+    #iframe
+    id="iframe"
+    [src]="sanitizer.bypassSecurityTrustResourceUrl(url)"
+    style="background-color: white; width: 100vw; height: 100vh"
+  ></iframe>
+</ion-content>
